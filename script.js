@@ -6,7 +6,7 @@ function validate(){
   var password = document.getElementById("password").value;
   if (username == "a" && password == "b") {
     alert("Login Success");
-    window.location = "google.com";
+    window.location = "www.google.com";
     return true;
   }
 else {

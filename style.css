@@ -29,12 +29,13 @@ input {
   margin: auto;
 }
 
-.button:hover {
-  opacity: 4;
+#submit:hover {
+  color: white;
+  cursor: pointer;
 }
 
 
-.button:active {
+#submit:active {
   background-color: #ffffff00;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
